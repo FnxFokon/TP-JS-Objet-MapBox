@@ -1,0 +1,36 @@
+{
+  "name": "jso-avec-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lidem-admin-github/22-23__ERN-DEV-B__Webpack-intro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lidem-admin-github/22-23__ERN-DEV-B__Webpack-intro/issues"
+  },
+  "homepage": "https://github.com/lidem-admin-github/22-23__ERN-DEV-B__Webpack-intro#readme",
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.7.3",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^3.11.3"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  }
+}

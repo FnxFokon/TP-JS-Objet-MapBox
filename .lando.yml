@@ -1,0 +1,19 @@
+name: tp-js-objet-mapbox
+services:
+  node:
+    type: node:16
+    ports: [8080:8080]
+    build:
+      - npm install
+    globals:
+      webpack-cli: latest
+      webpack: latest
+tooling:
+  npm:
+    service: node
+  npx:
+    service: node
+  webpack:
+    service: node
+  webpack-cli:
+    service: node
