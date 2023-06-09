@@ -1,0 +1,9 @@
+créer un container avec ID map quelque part.
+
+https://docs.mapbox.com/mapbox-gl-js/example/popup/?size=n_10_n // Dodc mapbox
+
+https://docs.mapbox.com/mapbox-gl-js/example/add-a-marker/ // pour placer un marker
+https://docs.mapbox.com/mapbox-gl-js/example/custom-marker-icons/ // pour custom un marker
+https://docs.mapbox.com/mapbox-gl-js/example/popup/ // Placer un popup
+
+localStorage/loadStorage

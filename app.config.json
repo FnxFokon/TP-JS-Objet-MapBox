@@ -1,0 +1,22 @@
+{
+    "apis":{
+        "mapbox_gl":{
+            "api_key": "pk.eyJ1IjoiZm54Zm9rb24iLCJhIjoiY2xpb2h4dnl0MDllOTNlbnZrenI3aHptcCJ9.A4wDjezktZl95n7YdULuSw",
+            "css_url": "htts://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.css",
+            "map_styles": {
+                "streets": "mapbox://styles/mapbox/streets-v12",
+                "outdoors": "mapbox://styles/mapbox/outdoors-v12",
+                "light": "mapbox://styles/mapbox/light-v11",
+                "dark": "mapbox://styles/mapbox/dark-v11",
+                "satellite": "mapbox://styles/mapbox/satellite-v9",
+                "satellite_streets": "mapbox://styles/mapbox/satellite-streets-v12",
+                "navigation_day": "mapbox://styles/mapbox/navigation-day-v1",
+                "navigation_night": "mapbox://styles/mapbox/navigation-night-v1"
+            }
+        },
+        "weather":{
+            "api_key": "clé API de weather"
+        }
+
+    }
+}
