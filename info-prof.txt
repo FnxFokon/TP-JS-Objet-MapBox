@@ -7,3 +7,10 @@ https://docs.mapbox.com/mapbox-gl-js/example/custom-marker-icons/ // pour custom
 https://docs.mapbox.com/mapbox-gl-js/example/popup/ // Placer un popup
 
 localStorage/loadStorage
+
+1) Chercher dans mapbox pour les BAse de l'application.
+
+On a travailler la météo peut etre essayer de recup la météo pour afficher la météo (bonnus SI FINI)
+
+Si on a tout fini (créer une carte custom) BONUS
+

@@ -62,6 +62,8 @@ class App {
     // Méthode qui capte le clique sur la map
     handleClickMap(evt) {
         console.log('evt', evt)
+        console.log('lon', evt.lngLat.lng);
+        console.log('lat', evt.lngLat.lat);
     }
 
 }
