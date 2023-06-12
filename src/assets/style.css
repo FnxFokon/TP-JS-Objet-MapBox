@@ -1,10 +1,42 @@
-*{
-    margin: 0;
-    padding: 0;
+/* Remise à zéro des styles par défault du navigateur */
+* {
+    background: 0; /* 0 s'applique sur background-position-x, toutes les autres propriétés sont remises à 0 */
+    border: 0;
     box-sizing: border-box;
+    margin: 0;
+    outline: 0; /* "Halo" autour de l'élément (bordure qui ne décale pas les éléments environents */
+    padding: 0;
 }
 
+ol, ul {
+    list-style: none;
+}
+
+a, a:visited, a:active {
+    color: inherit; /* Permet de reprendre la dernière couleur héritée depuis les ancêtres */
+    text-decoration: none; /* Suppression du soulignement */
+}
+
+address {
+    font-style: normal; /* font-style: normal / italic / oblique / etc. */
+}
+
+button, input {
+    color: inherit;
+}
+
+/* ------------------------------ Styles CSS ------------------------------ */
 #map{
     height: 100vh;
     background-color: #6D776D;
+    position: relative;
+}
+
+#formEvt{
+    position: absolute;
+    background-color: #c4bcb8;
+    top: 0;
+    right: 0;
+    width: 25%;
+    height: 100vh;
 }
