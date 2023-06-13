@@ -27,16 +27,27 @@ button, input {
 
 /* ------------------------------ Styles CSS ------------------------------ */
 #map{
-    height: 100vh;
     background-color: #6D776D;
+    height: 100vh;
     position: relative;
 }
 
 #formEvt{
-    position: absolute;
     background-color: #c4bcb8;
-    top: 0;
-    right: 0;
-    width: 25%;
+    border-radius: 5px;
     height: 100vh;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 25%;
+}
+
+#new-evt-add{
+    background-color: green;
+    border-radius: 5px;
+}
+
+#clear-all{
+    background-color: red;
+    border-radius: 5px;
 }
