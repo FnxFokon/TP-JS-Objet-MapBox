@@ -26,13 +26,15 @@ button, input {
 }
 
 /* ------------------------------ Styles CSS ------------------------------ */
+
+
 #map{
     background-color: #6D776D;
     height: 100vh;
     position: relative;
 }
 
-#formEvt{
+#container-form{
     background-color: #c4bcb8;
     border-radius: 5px;
     height: 100vh;
@@ -42,12 +44,32 @@ button, input {
     width: 25%;
 }
 
-#new-evt-add{
-    background-color: green;
-    border-radius: 5px;
+#div-Title{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
 }
 
-#clear-all{
-    background-color: red;
-    border-radius: 5px;
+#baloon{
+    color: blue;
+    font-size: 25px;
+}
+
+#div-buttons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+    align-items: center;
+}
+
+.green{
+    color: green;
+}
+
+.orange{
+    color: orange;
+}
+
+.red{
+    color: red;
 }
