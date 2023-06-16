@@ -57,8 +57,9 @@ class App {
       // On boucle sur notre tableau
       for (let localEvtLiteral of localEvtsLiterals) {
         // On ajoute a notre tableau d'evt chaque evt stocker dans notre localStorage
-        this.arrLocalEvts.push(new LocalEvent(localEvtLiteral));
-        console.log("On créer le marker");
+        this.arrLocalEvts.push(new LocalEvent(localEvtLiteral[0]));
+        console.log("Création des markers déjà present dans le localStorage");
+        // TODO: Utilisé la méthode newEvtAdd pour créer le marker
       }
     }
     this.loadDom();

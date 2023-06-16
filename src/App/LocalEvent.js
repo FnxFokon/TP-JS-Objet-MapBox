@@ -1,8 +1,8 @@
 class LocalEvent {
   title;
   desc;
-  eventB;
-  eventE;
+  dateB;
+  dateE;
   lat;
   lon;
 
@@ -10,8 +10,8 @@ class LocalEvent {
   constructor(evtLiteral) {
     this.title = evtLiteral.title;
     this.desc = evtLiteral.desc;
-    this.eventB = evtLiteral.dateB;
-    this.eventE = evtLiteral.dateE;
+    this.dateB = evtLiteral.dateB;
+    this.dateE = evtLiteral.dateE;
     this.lat = evtLiteral.lat;
     this.lon = evtLiteral.lon;
   }
