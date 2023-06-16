@@ -357,6 +357,10 @@ class App {
   reload() {
     console.log("on recharge la page");
     // TODO:
+    // 1- Création du DOM du bouton (dans le LoadDom qu'on ajoute au body)
+    // 2- Création du style du bouton et ou le placer ( en absolute sur le body avec un top:0 / Left:0 et un padding/margin et un style (couleur, icone))
+    // 3- Ajouter un event addEventListener au click
+    // 4- Faire une fonction dans l'addEventListener qui relance start() (ou il ya la recreation de mes marqueurs)
   }
 }
 
